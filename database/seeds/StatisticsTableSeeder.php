@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Statistic;
 
-class StatisticsTaleSeeder extends Seeder
+class StatisticsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
