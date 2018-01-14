@@ -16,7 +16,7 @@ class CreateStatisticsTable extends Migration
         Schema::create('statistics', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('point_id');
-            $table->integer('cholera_level');
+            $table->string('cholera_level');
             $table->timestamps();
         });
     }
