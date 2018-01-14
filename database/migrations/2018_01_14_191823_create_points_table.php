@@ -16,8 +16,8 @@ class CreatePointsTable extends Migration
         Schema::create('points', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('previous_point_id');
-            $table->string('next_point_id');
+            $table->integer('previous_point_id');
+            $table->integer('next_point_id');
             $table->timestamps();
         });
     }
